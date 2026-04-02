@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: GSSP-Test-BR-3
+  description: Service GSSP-Test-BR-3
+
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/GSSP-Test-BR-3
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/GSSP-Test-BR-3/main
+    argocd/app-name: gssp-test-br-3
+    backstage.io/kubernetes-id: GSSP-Test-BR-3
+    backstage.io/kubernetes-namespace: default
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
